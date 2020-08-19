@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 40vh;
+  width: 100%;
+}
+
+h3 {
+  color: black;
+}
+
+body {
+  color: rgb(2, 2, 2);
+  height: auto;
+  font-family:'Cambria';
+  background: linear-gradient(to top, rgb(34, 44, 43), rgb(91, 109, 105));
+   background-repeat: no-repeat; 
+   background-attachment: fixed; 
+}
+
+
+.zoom {
+ 
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+#allitems,#cupcakeitems,#doughnutitems,#cakeitems{
+  color:rgb(38, 185, 149);
+}
+
+
+
+
